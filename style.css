@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: transparent;
+    min-width: 42ch;
+    min-height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    row-gap: 1rem;
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+}
+
+
+body>main {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+body>header {
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding-block-end: 1rem;
+    padding-inline: 0.5rem;
+    display: flex;
+    column-gap: 1em;
+}
+
+body>footer {
+    border-top: 1px solid #ccc;
+    align-items: baseline;
+    padding-block-start: 1rem;
+    padding-inline: 0.5rem;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    margin-block: 0;
+}
+
+h1 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #222;
+    max-width: 14ch;
+}
+
+.icon {
+    display: inline-block;
+    height: 4.5rem;
+    width: 4.5rem;
+}

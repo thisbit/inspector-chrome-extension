@@ -1,0 +1,41 @@
+.toggled *:hover {
+outline: 2px dotted #C70039;
+}
+
+.inspect-toggle {
+position: fixed;
+top: 1rem;
+right: 1rem;
+border: none;
+background-color: #fa5656;
+padding: 0.45em 0.75em;
+border-radius: 0.35em;
+color: white;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+cursor: pointer;
+z-index: 9999999;
+
+}
+
+.boxes-toggle:hover,
+.boxes-toggle.active {
+background-color: #fa2323;
+outline: #fa2323 solid 2px;
+outline-offset: 0.2em;
+}
+
+.element-label {
+font-weight: bold;
+color: white;
+position: fixed;
+background: #C70039;
+/*   border: solid 1px black; */
+height: 1.5em;
+line-height: 1.5;
+font-family: monospace;
+font-size: 0.85rem;
+padding: 0 0.25em;
+text-transform: lowercase;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Toggle CSS Extension",
+    "version": "1.0",
+    "description": "A Chrome extension to toggle CSS on specific pages.",
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        }
+    }
+  }
+  
